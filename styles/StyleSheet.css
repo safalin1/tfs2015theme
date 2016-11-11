@@ -2989,6 +2989,12 @@ select,
 .views .selected {
   font-family: Raleway,Segoe UI,Helvetica Neue,Helvetica,Arial,Verdana !important;
 }
+.header-post11 #header-row .header-item.logo .product-name {
+  display: none;
+}
+.header-post11 #header-row .project-selector > .menu-item > .text > span {
+  max-width: 300px;
+}
 .swimlane-header-detail-count {
   -webkit-animation-duration: 0.1s;
   animation-duration: 0.1s;
