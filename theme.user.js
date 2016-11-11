@@ -10,8 +10,8 @@
 // @include		  http://*:8080/tfs/*
 // @include		  http://*.visualstudio.com/*
 // @include		  https://*.visualstudio.com/*
-// @version       2016.11.11.0913
-// @resource	  stylesheet https://cdn.rawgit.com/stevu236/tfs2015theme/c2a3d2342f34ced2bbbee4eebdb639c7141aaec2/styles/StyleSheet.min.css
+// @version       2016.11.11.1124
+// @resource	  stylesheet https://cdn.rawgit.com/stevu236/tfs2015theme/d45501a8ac012d06378e898ea522311544e2e9a4/styles/StyleSheet.min.css
 // ==/UserScript==
 (function() {
 	var progressIndicators = `<div class="kart-loader">
