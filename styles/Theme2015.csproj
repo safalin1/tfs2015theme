@@ -66,10 +66,6 @@
     <Content Include="StyleSheet.min.css">
       <DependentUpon>StyleSheet.css</DependentUpon>
     </Content>
-    <Content Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="StyleSheet.less" />
@@ -79,12 +75,9 @@
     </None>
     <Content Include="FontChanges.less" />
     <Content Include="KanbanBoard.less" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
