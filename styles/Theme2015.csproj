@@ -75,6 +75,7 @@
     </None>
     <Content Include="FontChanges.less" />
     <Content Include="KanbanBoard.less" />
+    <Content Include="Header.less" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
